@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Global Weather Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<header>
+  <h1>🌍 Global Weather Dashboard</h1>
+  <p>Kafka • Spark • HDFS</p>
+</header>
+
+<main>
+
+  <section class="card full">
+    <h2>📈 Température en temps réel</h2>
+    <canvas id="tempChart"></canvas>
+  </section>
+
+  <section class="card full">
+    <h2>💨 Vitesse du vent</h2>
+    <canvas id="windChart"></canvas>
+  </section>
+
+  <section class="card">
+    <h2>📡 Données temps réel</h2>
+    <ul id="realtime"></ul>
+  </section>
+
+  <section class="card alert">
+    <h2>⚠️ Anomalies détectées</h2>
+    <ul id="anomalies"></ul>
+  </section>
+
+</main>
+
+<footer>
+  <p>DataWarehouse Project</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

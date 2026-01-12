@@ -1,0 +1,25 @@
+# Node
+node_modules/
+npm-debug.log
+
+# Python
+__pycache__/
+*.pyc
+env
+
+# Spark / HDFS
+/tmp/
+_checkpoint/
+_spark_metadata/
+work/model/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Docker volumes
+hadoop_namenode/
+hadoop_datanode/
